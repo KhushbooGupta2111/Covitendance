@@ -12,7 +12,7 @@ class Covitendance extends StatelessWidget {
     return MaterialApp(
       home: Container(
           child: Text(
-        "Covitendance",
+        "Covitendance App",
         style: TextStyle(
           color: Colors.pink,
         ),
