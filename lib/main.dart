@@ -9,9 +9,14 @@ class Covitendance extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Text(
-      "Covitendance App",
-    ));
+    return MaterialApp(
+      home: Container(
+          child: Text(
+        "Covitendance",
+        style: TextStyle(
+          color: Colors.pink,
+        ),
+      )),
+    );
   }
 }
