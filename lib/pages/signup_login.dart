@@ -15,7 +15,7 @@ class SignUp_Login extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget> [
-              Image(image: image)
+              // Image.asset("assets/images/Illustrations/SignupLogin.png"),
               TextButton(
                 onPressed: () {} ,
                  child: Text(
