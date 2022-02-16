@@ -1,3 +1,4 @@
+import 'package:covitendance/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,9 +10,9 @@ class Covitendance extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Text(
-      "Covitendance",
+    return MaterialApp(
+        home: Scaffold(
+      body: SplashScreen(),
     ));
   }
 }
