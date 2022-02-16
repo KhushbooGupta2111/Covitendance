@@ -5,8 +5,8 @@ import 'package:covitendance/utils/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class SignUp_Login extends StatelessWidget {
-  const SignUp_Login({Key? key}) : super(key: key);
+class Register extends StatelessWidget {
+  const Register({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,11 +24,9 @@ class SignUp_Login extends StatelessWidget {
               ),
               SizedBox(height: 50,),
               ElevatedButton(
-                onPressed: () {
-
-                },
+                onPressed: () {},
                 child: Text(
-                  "Register",
+                  "Register as Teacher",
                   style: TextStyle(
                     fontSize: 20,
                     color: mainColor_blue,
@@ -46,13 +44,13 @@ class SignUp_Login extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                  "Login",
+                  "Register as Student",
                   style: TextStyle(
                     fontSize: 20,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.only(top: 20, bottom: 20, left: 30, right: 30),
+                    padding: EdgeInsets.all(20),
                     primary: Colors.white,
                     onPrimary: Colors.black,
                     shadowColor: Colors.white60,

@@ -1,3 +1,4 @@
+import 'package:covitendance/pages/Register.dart';
 import 'package:covitendance/pages/signup_login.dart';
 import 'package:covitendance/utils/colors.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SplashScreenView(
-        navigateRoute: SignUp_Login(),
+        navigateRoute: Register(),
         duration: 10000,
         imageSize: 200,
         imageSrc: "assets/images/Logos/Circle Logo.png",
