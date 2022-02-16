@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
 
 //Images
-String SignUp_Login_Image = "";
+const SignUp_Login_Image = "assets/images/Illustrations/SignUpLogin.png";
