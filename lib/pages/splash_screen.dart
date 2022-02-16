@@ -1,4 +1,5 @@
 import 'package:covitendance/pages/signup_login.dart';
+import 'package:covitendance/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:splash_screen_view/SplashScreenView.dart';
@@ -23,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
         duration: 10000,
         imageSize: 200,
         imageSrc: "assets/images/Logos/Circle Logo.png",
-        backgroundColor: Colors.grey,
+        backgroundColor: mainColor_blue,
       ),
     );
   }
