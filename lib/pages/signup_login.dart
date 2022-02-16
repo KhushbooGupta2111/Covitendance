@@ -11,7 +11,9 @@ class SignUp_Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: mainColor_blue,
       body: Container(
+
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -20,6 +22,7 @@ class SignUp_Login extends StatelessWidget {
               Image.asset(
                 SignUp_Login_Image,
               ),
+              SizedBox(height: 50,),
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
@@ -30,28 +33,29 @@ class SignUp_Login extends StatelessWidget {
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.only(left: 20),
+                    padding: EdgeInsets.all(20),
                     primary: Colors.white,
                     //onPrimary: Colors.black,
                     shadowColor: Colors.white60,
                     shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20))),
+                        borderRadius: BorderRadius.circular(10))),
               ),
+              SizedBox(height: 25,),
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                  "Register",
+                  "Login",
                   style: TextStyle(
                     fontSize: 20,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.only(left: 20),
+                    padding: EdgeInsets.only(top: 20, bottom: 20, left: 30, right: 30),
                     primary: Colors.white,
                     onPrimary: Colors.black,
                     shadowColor: Colors.white60,
                     shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20))),
+                        borderRadius: BorderRadius.circular(10))),
               )
             ],
           ),
