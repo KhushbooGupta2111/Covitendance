@@ -1,5 +1,6 @@
 // import 'dart:html';
 
+import 'package:covitendance/pages/Register.dart';
 import 'package:covitendance/utils/colors.dart';
 import 'package:covitendance/utils/constants.dart';
 import 'package:flutter/cupertino.dart';
