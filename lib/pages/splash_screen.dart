@@ -21,9 +21,9 @@ class _SplashScreenState extends State<SplashScreen> {
       body: SplashScreenView(
         navigateRoute: SignUp_Login(),
         duration: 10000,
-        imageSize: 300,
+        imageSize: 200,
         imageSrc: "assets/images/Logos/Circle Logo.png",
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey,
       ),
     );
   }

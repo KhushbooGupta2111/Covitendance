@@ -1,6 +1,8 @@
 // import 'dart:html';
 
 import 'package:covitendance/utils/colors.dart';
+import 'package:covitendance/utils/constants.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SignUp_Login extends StatelessWidget {
@@ -14,21 +16,15 @@ class SignUp_Login extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget> [
-              Image(image: image)
-              TextButton(
-                onPressed: () {} ,
-                 child: Text(
-                   "Register"
-                 ),
-                
+            children: <Widget>[
+              Image.asset(
+                SignUp_Login_Image,
               ),
               TextButton(
-                onPressed: () {} ,
-                 child: Text(
-                   "Login"
-                 )
-              )
+                onPressed: () {},
+                child: Text("Register"),
+              ),
+              TextButton(onPressed: () {}, child: Text("Login"))
             ],
           ),
         ),
