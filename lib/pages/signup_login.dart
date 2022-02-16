@@ -20,19 +20,39 @@ class SignUp_Login extends StatelessWidget {
               Image.asset(
                 SignUp_Login_Image,
               ),
-              TextButton(
+              ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                    "Register",
+                  "Register",
                   style: TextStyle(
                     fontSize: 20,
-                    backgroundColor: mainColor_blue,
-                    color: mainColor_white,
+                    color: mainColor_blue,
                   ),
-
                 ),
+                style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.only(left: 20),
+                    primary: Colors.white,
+                    //onPrimary: Colors.black,
+                    shadowColor: Colors.white60,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20))),
               ),
-              TextButton(onPressed: () {}, child: Text("Login"))
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  "Register",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.only(left: 20),
+                    primary: Colors.white,
+                    onPrimary: Colors.black,
+                    shadowColor: Colors.white60,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20))),
+              )
             ],
           ),
         ),
