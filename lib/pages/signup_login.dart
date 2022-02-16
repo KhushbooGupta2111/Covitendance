@@ -37,7 +37,7 @@ class SignUp_Login extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     primary: Colors.white,
-                    //onPrimary: Colors.black,
+                    onPrimary: Colors.black,
                     shadowColor: Colors.white60,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10))),
