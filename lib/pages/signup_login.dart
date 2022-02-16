@@ -1,3 +1,6 @@
+// import 'dart:html';
+
+import 'package:covitendance/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class SignUp_Login extends StatelessWidget {
@@ -8,7 +11,26 @@ class SignUp_Login extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: Center(
-          child: Text("SignUp and Login Buttons here"),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget> [
+              Image(image: image)
+              TextButton(
+                onPressed: () {} ,
+                 child: Text(
+                   "Register"
+                 ),
+                
+              ),
+              TextButton(
+                onPressed: () {} ,
+                 child: Text(
+                   "Login"
+                 )
+              )
+            ],
+          ),
         ),
       ),
     );
