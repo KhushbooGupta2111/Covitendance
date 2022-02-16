@@ -24,7 +24,11 @@ class SignUp_Login extends StatelessWidget {
               ),
               SizedBox(height: 50,),
               ElevatedButton(
-                onPressed: () {},
+                onPressed:  () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => Register())),
+            ,
                 child: Text(
                   "Register",
                   style: TextStyle(
