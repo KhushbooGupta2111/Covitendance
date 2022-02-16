@@ -6,3 +6,4 @@ import 'dart:ui';
 
 // These are the colors we have in the logo
 const Color mainColor_blue = Color.fromRGBO(25 , 31, 51, 1.0);
+const Color mainColor_white = Color.fromRGBO(255 , 255, 255, 1.0);
