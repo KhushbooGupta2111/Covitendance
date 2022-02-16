@@ -22,7 +22,15 @@ class SignUp_Login extends StatelessWidget {
               ),
               TextButton(
                 onPressed: () {},
-                child: Text("Register"),
+                child: Text(
+                    "Register",
+                  style: TextStyle(
+                    fontSize: 20,
+                    backgroundColor: mainColor_blue,
+                    color: mainColor_white,
+                  ),
+
+                ),
               ),
               TextButton(onPressed: () {}, child: Text("Login"))
             ],
