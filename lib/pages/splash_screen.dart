@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SplashScreenView(
-        navigateRoute: Register(),
+        navigateRoute: SignUp_Login(),
         duration: 10000,
         imageSize: 200,
         imageSrc: "assets/images/Logos/Circle Logo.png",
