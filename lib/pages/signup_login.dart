@@ -1,5 +1,4 @@
 // import 'dart:html';
-// import 'package:google_sign_in/google'
 import 'package:covitendance/pages/Register.dart';
 import 'package:covitendance/utils/colors.dart';
 import 'package:covitendance/utils/constants.dart';
