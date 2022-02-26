@@ -20,7 +20,7 @@ class Register extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                SignUp_Login_Image,
+                Register_Image,
               ),
               SizedBox(height: 50,),
               ElevatedButton(
