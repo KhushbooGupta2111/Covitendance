@@ -48,7 +48,7 @@ class _GoogleLoginPageState extends State<GoogleLoginPage> {
               ),
               ElevatedButton(
                 onPressed: () async{
-                  await _googleSignIn.signIn();
+                  await _googleSignIn.signOut();
                   setState(() {});
                 },
                 child: Text(
