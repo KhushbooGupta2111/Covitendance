@@ -1,16 +1,20 @@
-// import 'dart:html';
-// import 'package:google_sign_in/google'
-import 'package:covitendance/pages/Register.dart';
-import 'package:covitendance/utils/colors.dart';
-import 'package:covitendance/utils/constants.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:covitendance/utils/colors.dart';
 
-class SignUp_Login extends StatelessWidget {
-  const SignUp_Login({Key? key}) : super(key: key);
+class GoogleLoginPage extends StatefulWidget {
+  const GoogleLoginPage({Key? key}) : super(key: key);
+
+  @override
+  _GoogleLoginPageState createState() => _GoogleLoginPageState();
+}
+
+class _GoogleLoginPageState extends State<GoogleLoginPage> {
+  GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
   @override
   Widget build(BuildContext context) {
+    GoogleSignInAccount? user = _googleSignIn.currentUser;
     return Scaffold(
       backgroundColor: mainColor_blue,
       body: Container(
@@ -19,17 +23,13 @@ class SignUp_Login extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Image.asset(
-                SignUp_Login_Image,
-              ),
-              SizedBox(
-                height: 50,
-              ),
               ElevatedButton(
-                onPressed: () => Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Register())),
+                onPressed: () async{
+                  await _googleSignIn.signIn();
+                  setState(() {});
+                },
                 child: Text(
-                  "Register",
+                  "Google Sign In",
                   style: TextStyle(
                     fontSize: 20,
                     color: mainColor_blue,
@@ -47,9 +47,12 @@ class SignUp_Login extends StatelessWidget {
                 height: 25,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () async{
+                  await _googleSignIn.signIn();
+                  setState(() {});
+                },
                 child: Text(
-                  "Login",
+                  "Google Signout",
                   style: TextStyle(
                     fontSize: 20,
                   ),
