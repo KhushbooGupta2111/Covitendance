@@ -1,4 +1,5 @@
 import 'package:covitendance/pages/splash_screen.dart';
+import 'package:covitendance/pages/google_login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class Covitendance extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
+          // body: SplashScreen(),
           body: SplashScreen(),
         ));
   }
