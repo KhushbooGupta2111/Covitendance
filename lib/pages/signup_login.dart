@@ -5,6 +5,9 @@ import 'package:covitendance/utils/colors.dart';
 import 'package:covitendance/utils/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+
+GoogleSignIn _googleSignIn = GoogleSignIn();
 
 class SignUp_Login extends StatelessWidget {
   const SignUp_Login({Key? key}) : super(key: key);
