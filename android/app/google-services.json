@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17806084831",
+    "project_id": "bpit-attendance-ddb99",
+    "storage_bucket": "bpit-attendance-ddb99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17806084831:android:cec00fed6531245d67b76a",
+        "android_client_info": {
+          "package_name": "com.example.covitendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17806084831-5rsu2rf6pncqtmqhqes9in81t0tntetv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtbPj3Frz83w5oonXgKUt4jhTo8C5-4Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17806084831-5rsu2rf6pncqtmqhqes9in81t0tntetv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
