@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:easy_sidemenu/easy_sidemenu.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key? key, required this.title}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
 
-  final String title;
+
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -16,10 +16,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-        centerTitle: true,
-      ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -164,3 +160,4 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+

@@ -1,4 +1,5 @@
 import 'package:covitendance/pages/Register.dart';
+import 'package:covitendance/pages/dashboard.dart';
 import 'package:covitendance/pages/signup_login.dart';
 import 'package:covitendance/utils/colors.dart';
 import 'package:flutter/material.dart';
